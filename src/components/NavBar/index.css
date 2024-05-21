@@ -1,0 +1,37 @@
+.nav-bg {
+  background-color: #9796f0;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.left-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.emoji-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.right-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.score-style {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 15px;
+}

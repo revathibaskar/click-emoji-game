@@ -1,0 +1,40 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbc7d4;
+  width: 60%;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .won-loss-img {
+    order: 2;
+  }
+}
+
+.result-card {
+  align-self: center;
+  text-align: center;
+}
+
+.score-wl-style {
+  color: #6a59ff;
+  font-size: 24px;
+}
+
+.play-btn {
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  color: #3d3d3d;
+  padding: 6px;
+  height: 30px;
+  width: 110px;
+  border-radius: 7px;
+  border: none;
+}
